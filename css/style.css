@@ -1,0 +1,142 @@
+  /* Inserta tu codigo aqui */
+
+ul.menu {
+  clear: both; /*Eliminar las viñetas automáticas y todos los márgenes y espaciados aplicados por defecto*/
+  float: left;
+  width: 100%;
+  list-style: none;
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 8px;
+}
+
+/*La clave para el menú horizontal reside en modificar la propiedad float de los elementos <li> del menú*/
+ul.menu li {
+   float: left;
+   display: inline-block;
+  padding: 0px 10px 10px 10px;
+   
+}
+
+ul.menu li a {
+   display: inline-block;
+  padding: -30px 10px 10px 10px;
+  text-decoration: none;
+  color: #333;
+  color:white;
+  font-size: 14px;
+  margin: 10px 0px;
+}
+
+.fondo{
+  background-color: #545454;
+}
+
+.fondo2{
+  background-color: #C0C0C0;
+}
+
+ }
+ h3>a{
+  font-size: 10px;
+ }
+
+ .menu{
+  margin-top: 5%;
+
+}
+
+
+.imagenessegundas img{
+	 width: 100%;/*Ayuda de Nello para no distorcionar imagenes al ir cambiando el tamaño de la pantalla*/
+  /*opacity: 0.6; Me permite ponerle opacidad a las imagenes con un rango del 0 al 1*/
+  height: 200px;
+  width:200px;
+  padding: 3px;
+  border: solid 1px #ccc;
+  background: #fff;
+  display: inline-block;
+
+}
+.tamaño{
+  width: 100px;
+  height:100px;
+
+}
+
+.tamaño img{
+  width: 100px;
+  height:100px;
+  padding:5px 5px;
+  margin: 5px;
+}
+
+.img-peque{
+  margin: 5px;
+}
+
+.fila1{
+  width: 100%;/*Ayuda de Nello para no distorcionar imagenes al ir cambiando el tamaño de la pantalla*/
+  /*opacity: 0.6; Me permite ponerle opacidad a las imagenes con un rango del 0 al 1*/
+  padding: 2px;
+  border: solid 1px #ccc;
+  background: #fff;
+}
+
+.figuras{
+  position: relative;
+
+}
+
+.cara{
+ 
+  color:blue;
+  list-style-type: 
+  margin-bottom:10px;
+  text-decoration:none;
+}
+
+.tamañoicono{
+  width: 12px;
+  height:12px;
+}
+
+.cajaside1{
+  margin-top:25px;
+}
+
+.pancho{
+  margin:25px;
+
+  
+}
+
+.cajaside2{
+  margin-top: 20px;
+}
+
+.cajaside20{
+  margin: 15px;
+}
+
+#centrar{
+  text-align: left;
+}
+#pisionmon{
+  text-align:center;
+}
+
+.mon{
+  display:inline-block;
+}
+
+#fondo9{
+  background-color: #C0C0C0;
+  padding: 100px;
+}
+
+#kia{
+  background-color: gray;
+  margin: 20px 0px;
+  padding: 20px;
+  color:white;
+}
